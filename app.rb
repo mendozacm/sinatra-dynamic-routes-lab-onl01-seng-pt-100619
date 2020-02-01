@@ -8,7 +8,8 @@ class App < Sinatra::Base
   end
   
   get '/square/:number' do
-  
+  @product = params[:num1].to_i * params[:num1].to_i
+  	"#{@product}"
   end
   
   get '/say/:number/:phrase' do 
