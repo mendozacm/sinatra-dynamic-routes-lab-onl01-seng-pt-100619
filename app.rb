@@ -6,6 +6,12 @@ class App < Sinatra::Base
     
   end
   
+  get '/square/:number'
+  
+  end
+  
+  
+  
   
 
 end
